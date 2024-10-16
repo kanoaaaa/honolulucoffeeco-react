@@ -7,8 +7,8 @@
     position: relative;
     color: white;
     padding: 30px;
+    font-family: 'Playfair Display', serif; /* Custom font for the entire section */
   }
-  
   
   .hero-text {
     max-width: 600px;
@@ -17,15 +17,24 @@
   
   .hero-text h1 {
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 700; /* Bolder font for header */
+    font-family: 'Playfair Display', serif; /* Custom font */
   }
   
   .hero-text p {
     font-size: 1.5rem;
+    font-family: 'Merriweather', serif; /* Custom complementary font */
   }
   
   .hero-text button {
     font-size: 1.2rem;
     margin-top: 15px;
+    font-family: 'Merriweather', serif; /* Button font */
+  }
+  
+  /* Extra: Icon spacing for Navbar */
+  .icon-spacing {
+    margin-left: 10px;
+    margin-right: 10px;
   }
   

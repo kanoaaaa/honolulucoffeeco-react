@@ -10,9 +10,9 @@ function Navbar() {
             <img src={logo} alt="Honolulu Coffee" width="150" />
           </a>
           <div className="d-flex justify-content-end">
-            <a className="nav-link" href="#"><i className="bi bi-search"></i></a>
-            <a className="nav-link" href="#"><i className="bi bi-person"></i></a>
-            <a className="nav-link" href="#"><i className="bi bi-cart"></i></a>
+            <a className="nav-link icon-spacing" href="#"><i className="bi bi-search"></i></a>
+            <a className="nav-link icon-spacing" href="#"><i className="bi bi-person"></i></a>
+            <a className="nav-link icon-spacing" href="#"><i className="bi bi-cart"></i></a>
           </div>
         </div>
       </nav>
